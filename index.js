@@ -15,4 +15,4 @@ app.listen(PORT, () => {
     console.log(`Microservicio GraphQL funcionando en http://localhost:${PORT}/graphql`);
 });
 
-console.log('🔁 Schema cargado:', schema);
+console.log('Schema cargado:', schema);

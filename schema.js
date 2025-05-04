@@ -39,7 +39,7 @@ const RootMutation = new GraphQLObjectType({
             },
             resolve: async (_, args) => {
                 try {
-                    console.log('FASTAPI_URL:', process.env.FASTAPI_URL);
+                    console.log('Usuario Creado Correctamente, FASTAPI_URL:', process.env.FASTAPI_URL);
                     const res = await axios.post(`${process.env.FASTAPI_URL}/users/register`, {
                         email: args.email,
                         password: args.password,
