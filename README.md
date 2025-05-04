@@ -1,4 +1,4 @@
-```markdown
+```
 ## 🧠 Microservicio de Creación de Usuarios — Node.js + GraphQL
 
 Este microservicio permite registrar usuarios a través de una **mutación GraphQL**. Los datos son enviados a un backend FastAPI mediante una llamada REST (`POST /users/register`), el cual los almacena en una base de datos PostgreSQL.
