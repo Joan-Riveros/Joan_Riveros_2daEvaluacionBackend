@@ -133,6 +133,3 @@ query {
 Desarrollado por **Joan Riveros Soria**, para la materia de **Tecnologías Web II**
 **Universidad**: Universidad Católica Boliviana San Pablo
 **Fecha**: 3 de Mayo, 2025
-
-```
-
